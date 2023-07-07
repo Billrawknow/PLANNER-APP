@@ -87,6 +87,7 @@ export default function TimerWidget() {
               color: "white",
               fontSize: "15px",
               cursor: "pointer",
+              
             }}
             onClick={() => {
               setTimerListData({
