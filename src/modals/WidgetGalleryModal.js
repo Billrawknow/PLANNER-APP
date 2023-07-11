@@ -30,8 +30,7 @@ export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetA
                       if (widgets[i].name === widget.name) {
                         flag = true
                         break
-                      }
-                      
+                      }   
                     }
                     if (!flag) {
                       setWidgets([...widgets, {
