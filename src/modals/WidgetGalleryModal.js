@@ -31,6 +31,7 @@ export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetA
                         flag = true
                         break
                       }
+                      
                     }
                     if (!flag) {
                       setWidgets([...widgets, {
