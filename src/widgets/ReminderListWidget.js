@@ -74,6 +74,7 @@ export default function ReminderListWidget() {
                   setReminderListData(reminderList)
                 }}
               >X</button>
+              
             </div>
           </div>
         )
