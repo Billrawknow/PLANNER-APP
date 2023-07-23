@@ -51,6 +51,7 @@ export default function WidgetGalleryModal({ setShowWidgetModal, selectedWidgetA
                   </div>
                   {widget.component}
                 </div>
+                
               )
             })}
           </div>
