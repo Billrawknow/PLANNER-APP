@@ -187,7 +187,6 @@ function App() {
         onClick={() => {
          setShowWidgetModal(true)
          setSelectedWidgetArea('right-widget')
-         
         }}>+ Add Widget</button>
       }
      </div>
