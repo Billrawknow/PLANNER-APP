@@ -24,7 +24,6 @@ export default function ClockWidget() {
     return `${days[day]}, ${dateNumber} ${months[month - 1]} ${year}`
  
   }
- 
   return (
     <div>
       <p className='time'>{time}</p>
