@@ -17,6 +17,7 @@ export default function ClockWidget() {
     const dateNumber = dateArray.getDate()
     const month = dateArray.getMonth() + 1
     const year = dateArray.getFullYear()
+    
  
     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -29,6 +30,6 @@ export default function ClockWidget() {
       <p className='time'>{time}</p>
       <p className='date'>{tidyDate(date)}</p>
     </div>
-    
+
   )
 }
