@@ -73,6 +73,7 @@ export default function ReminderListWidget() {
                   reminderList.splice(index, 1)
                   setReminderListData(reminderList)
                 }}
+                
               >X</button>
               
             </div>
