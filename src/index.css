@@ -11,6 +11,7 @@ audio,
 iframe,
 embed,
 object {
+  
  display: block;
  max-width: 100%;
 }
