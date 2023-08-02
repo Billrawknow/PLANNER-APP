@@ -183,6 +183,7 @@ function App() {
       })}
       {widgets.filter(widget => widget.area === 'right-widget').length < 3 && widgets.filter(widget => widget.area === 'right-widget').length > 0 &&
        <button
+       
         className='add-widget-button'
         onClick={() => {
          setShowWidgetModal(true)
