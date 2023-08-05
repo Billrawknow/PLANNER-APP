@@ -20,6 +20,7 @@ function App() {
    setWidgets(widgets.filter(widget => widget.id !== index))
   } catch (error) {
    console.log(error)
+   
   }
  }
  
